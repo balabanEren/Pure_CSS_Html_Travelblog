@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.GearCard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   margin: 2%;
+    padding: 1%;
+
+
+}
+
+
+.GearCard .GearImg img{
+    height: 14vw;
+    width: 14vw;
+    margin-left: 30%;
+}
+
+
+.GearCard .GearExplanation{
+ 
+
+    text-align: center;
+    
+}
+
+.GearCard .GearExplanation h2{
+    
+color: orange;
+    
+}
+
+
+.GearCard .GearExplanation{
+
+    text-align: center;
+box-shadow: 1px 1px 1px 1px black;
+border-radius: 10px;
+    
+}
+
+.GearCard .GearExplanation button{
+    margin: 5%;
+   width: 20%;
+   position: relative;
+   left: 20%;
+   background-color: orange;
+    border-radius: 5px;
+    color: aliceblue;
+    }
+    
+
+    .GearCard .GearExplanation button:hover{
+            background-color: rgb(183, 113, 0);
+         }
+         
+             
+
+
+
+@media (max-width:760px) {
+    .GearCard {
+      
+        grid-template-columns: 1fr;
+        margin: 5%;
+    }
+
+    .GearCard .GearImg{
+       margin: 0 30vw;
+       margin-bottom: 2%;
+       height: 30vw;
+       width: 30vw;
+        
+        
+    }
+
+    
+.GearCard .GearImg img{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+}
+

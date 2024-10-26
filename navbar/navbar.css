@@ -1,0 +1,63 @@
+
+.nav{
+    height: 8vh;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+      font-family: 'Libre Baskerville'
+    }
+    
+    .nav a{
+        text-decoration: none;
+        color: rgb(236, 236, 236);
+        transition: 0.5s;
+    }
+    
+    .nav a:hover{
+        color: rgb(254, 159, 25);
+    }
+    
+    .nav img{
+    width: 50px;
+    }
+    
+    .dropdown{
+        position: relative;
+    }
+    
+    .dropdown-items{
+        display: none;
+        position:absolute;
+        z-index: 4;
+        top: 15px;
+        left: 10px;
+    }
+    
+    .dropdown-items a {
+        color: orange; /* Link color in dropdown */
+        padding: 15px 50px; /* Spacing in dropdown */
+        text-decoration: none; /* Remove underline */
+        display: block; /* Make links block-level */
+       z-index: 3;
+        
+    }
+    
+    
+    
+    .dropdown-items a:hover {
+       color: rgb(27, 27, 27);
+       font-size: 1.03em;;
+       
+        
+    }
+    
+    
+    .dropdown:hover .dropdown-items {
+        display: block; /* Show dropdown on hover */
+        background-color: aliceblue;
+    }
+    
+    
+    

@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.PageIntro{
+    background-color: yellow;
+    height: 70%;
+    position: relative;
+}
+
+
+.PageIntro img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+.CandaOverlay{
+    position: absolute;
+    
+    top: 15%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    z-index: 2;
+}
+
+.CandaOverlay h2{
+    color: white;
+    font-size: 11.3vw;
+    text-align: center;
+}
+
+
+.CandaOverlay p{
+    font-size: 200%;
+    color: white;
+    text-align: center;
+}
